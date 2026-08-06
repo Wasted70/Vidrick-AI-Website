@@ -1,0 +1,34 @@
+VIDRICK WEBSITE — SIMPLE NETLIFY DEPLOYMENT
+
+BEFORE DEPLOYING
+1. Copy your existing assets folder beside index.html.
+2. Open index.html locally and confirm every screenshot loads.
+3. Confirm the legal pages open from the footer.
+
+FASTEST METHOD — NETLIFY DROP
+1. Create or sign in to a Netlify account.
+2. Open Netlify Drop or the drag-and-drop area in the Projects page.
+3. Drag the COMPLETE website folder into the browser.
+4. Netlify publishes it and gives you a temporary web address.
+5. Open that address and test the site.
+
+CONNECTING VIDRICK.AI
+1. In the Netlify project, open Domain management.
+2. Add the custom domain vidrick.ai.
+3. Netlify will show the DNS records required.
+4. Open the website where you purchased the domain.
+5. Add or replace the DNS records exactly as Netlify shows.
+6. Wait for DNS and HTTPS setup to complete.
+
+RECOMMENDED LONG-TERM WORKFLOW
+1. Create a GitHub repository for the website.
+2. Upload index.html, styles.css, legal pages, and assets.
+3. Connect that repository to Netlify.
+4. Future GitHub pushes will deploy automatically.
+
+CUSTOMER PORTAL
+The public website can remain at:
+https://vidrick.ai
+
+The customer portal can later be deployed at:
+https://account.vidrick.ai
