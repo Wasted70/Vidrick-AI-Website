@@ -1,0 +1,5 @@
+GA4 tracking patch for Vidrick AI Website.
+Measurement ID: G-VHGM2Q6WC8
+Events: professional_trial_click, personal_signup_click, customer_portal_click, pricing_view, download_click.
+Existing styling and destinations were preserved. Website analytics disclosure added to privacy.html.
+After deployment: visit vidrickai.com, check GA4 Realtime, then use Test installation in Google Analytics.
