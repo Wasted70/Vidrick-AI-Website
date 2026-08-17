@@ -1,0 +1,10 @@
+Vidrick AI Website — SEO Phase 1
+- Homepage title, meta description, canonical, social metadata and SoftwareApplication structured data improved.
+- Added three indexable landing pages:
+  /offline-ai-transcription-windows.html
+  /private-local-transcription.html
+  /offline-speaker-diarization.html
+- Added all three pages to sitemap.xml.
+- GA4 and existing Vidrick conversion tracking preserved.
+- Existing screenshots, pricing, portal links, trial flow and homepage body/design preserved.
+After deployment, submit the sitemap in Google Search Console and request indexing for the new pages.

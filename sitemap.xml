@@ -5,4 +5,8 @@
   <url><loc>https://vidrickai.com/terms.html</loc><priority>0.3</priority></url>
   <url><loc>https://vidrickai.com/eula.html</loc><priority>0.3</priority></url>
   <url><loc>https://vidrickai.com/refund.html</loc><priority>0.3</priority></url>
+
+  <url><loc>https://vidrickai.com/offline-ai-transcription-windows.html</loc></url>
+  <url><loc>https://vidrickai.com/private-local-transcription.html</loc></url>
+  <url><loc>https://vidrickai.com/offline-speaker-diarization.html</loc></url>
 </urlset>
