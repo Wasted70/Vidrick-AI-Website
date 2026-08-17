@@ -1,0 +1,21 @@
+Vidrick AI Website — Screenshot Refresh
+
+Updated screenshots:
+- transcribe.png
+- editor.png
+- insights.png
+- history.png
+- about-updates.png
+
+Preserved:
+- Google Analytics / GA4 tracking
+- Custom Vidrick conversion events
+- Pricing
+- Professional trial destination
+- Personal signup destination
+- Customer Portal links
+- Existing styles/layout
+- Legal pages
+- robots.txt and sitemap.xml
+
+No website logic or visual layout was changed; only the five app screenshots were refreshed.
