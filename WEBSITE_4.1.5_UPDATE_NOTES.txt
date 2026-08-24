@@ -1,0 +1,24 @@
+Vidrick AI Website — 4.1.5 Update
+
+Built from the untouched GitHub ZIP supplied by the user.
+
+Updated:
+- 4.1.5 multilingual messaging
+- 57 selectable languages plus Auto-detect
+- Translate to English mention
+- multilingual-transcription.html SEO page
+- sitemap.xml
+- 4.1.5 screenshots:
+  - transcribe.png
+  - editor.png
+  - insights.png
+  - history.png
+  - about-updates.png
+
+Preserved:
+- existing GitHub website structure
+- GA4
+- pricing
+- trial/signup/portal links
+- existing legal pages
+- existing styles and scripts
