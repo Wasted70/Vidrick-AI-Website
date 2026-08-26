@@ -1,0 +1,16 @@
+Vidrick AI Website — 4.1.6 homepage update
+
+- Added a new “What’s new in 4.1.6” section above Multilingual Transcription.
+- Highlights CPU performance, Automatic speaker identification, multi-speaker stability, speaker-processing performance, model-download retries, and DOCX/export reliability.
+- Updated Multilingual Transcription copy from 4.1.5 to 4.1.6.
+- Updated the transcription screenshot alt text to 4.1.6.
+- Pricing, portal links, downloads, analytics, and existing site behavior were not intentionally changed.
+
+4.1.6 SCREENSHOT REFRESH
+- Replaced the Transcribe screenshot with the final 4.1.6 UI.
+- Replaced the Editor screenshot with the final 4.1.6 UI.
+- Replaced the Insights screenshot with the final 4.1.6 UI.
+- Replaced the History screenshot with the final 4.1.6 UI.
+- Replaced the About & Updates screenshot with the final 4.1.6 UI.
+- Added the Vidrick 4.1.6 Welcome screen to the homepage as a dedicated product showcase.
+- No pricing, portal, analytics, trial, or download behavior was changed.
