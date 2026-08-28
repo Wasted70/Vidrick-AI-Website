@@ -1,0 +1,8 @@
+Vidrick AI Website - 4.1.7 Update
+
+- Updated What's New section for 4.1.7 speaker intelligence and long-recording improvements.
+- Replaced Transcribe, Editor, Insights, History, and About & Updates screenshots with the supplied 4.1.7 images.
+- Preserved the existing Welcome screenshot unchanged.
+- Updated screenshot alt text from 4.1.6 to 4.1.7 where applicable.
+
+- Added Improved processing time to What’s New: optimized long-recording speaker processing reduces unnecessary analysis passes while preserving accuracy.
