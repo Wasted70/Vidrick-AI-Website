@@ -24,7 +24,7 @@ Those pages will become active when the customer portal is deployed.
 
 ## Updated application screenshots
 
-This package includes the current Vidrick 4.1.8 screenshots:
+This package includes the current Vidrick 4.1.9 screenshots:
 
 - Transcribe
 - Settings
@@ -32,5 +32,6 @@ This package includes the current Vidrick 4.1.8 screenshots:
 - Insights
 - History
 - About & Updates
+- First-run Welcome
 
 The `assets` folder is already included, so this package can be deployed directly.

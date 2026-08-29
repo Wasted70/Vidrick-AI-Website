@@ -1,0 +1,12 @@
+Vidrick AI Website 4.1.9 Update
+
+- Updated the What's New section to cover 4.1.8 and 4.1.9.
+- Added the 4.1.9 short-recording speaker identity improvement.
+- Explained that the fix requires repeated acoustic evidence and does not force
+  an automatic speaker count.
+- Explicitly documented that the validated long-recording pipeline remains
+  unchanged.
+- Replaced Transcribe, Settings, Editor, Insights, History, and About & Updates
+  images with authentic 4.1.9 captures.
+- Updated image and stylesheet cache-busting to 4.1.9.
+- Updated screenshot alternative text and multilingual page version references.
