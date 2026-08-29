@@ -1,0 +1,16 @@
+Vidrick AI Website 4.1.8 Update
+================================
+
+- Updated the What’s New section to cover both 4.1.7 and 4.1.8.
+- Preserved the existing 4.1.7 speaker-accuracy and long-recording improvements.
+- Added the shipped 4.1.8 interface-localization behavior:
+  English, Spanish, and French; live switching; Save/Cancel behavior; and
+  separation from spoken-language and translation settings.
+- Added the freshly rebuilt 4.1.8 updater helper to the release highlights.
+- Replaced Transcribe, Editor, Insights, History, About & Updates, and Settings
+  images with authentic captures from the signed 4.1.8 build.
+- Added image and stylesheet cache-busting for the 4.1.8 deployment.
+- Updated screenshot alternative text and multilingual page version references.
+
+The existing pricing, portal links, analytics, legal pages, privacy claims, and
+trial behavior were preserved.
