@@ -1,0 +1,10 @@
+Vidrick AI Website 4.2 Update
+
+- Updated the What's New section to cover versions 4.1.9 and 4.2.
+- Documented the confirmed three-person real-audio correction.
+- Documented repeated evidence for four-to-six-second fragments and the
+  short-recording-scaled residual audit.
+- Confirmed that the correction does not run at 20 minutes or longer.
+- Replaced the product captures with authentic Vidrick 4.2 screenshots using
+  safe fictional sample content.
+- Updated image and stylesheet cache-busting to 4.2.

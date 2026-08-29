@@ -24,7 +24,7 @@ Those pages will become active when the customer portal is deployed.
 
 ## Updated application screenshots
 
-This package includes the current Vidrick 4.1.9 screenshots:
+This package includes the current Vidrick 4.2 screenshots:
 
 - Transcribe
 - Settings
