@@ -1,0 +1,23 @@
+Vidrick AI Website 4.3 Update
+
+Release gate: publish this website update only after the tested 4.3 application
+release and its download/update assets are available.
+
+- Replaced the 4.2 What's New copy with six 4.3 feature cards covering long-file
+  memory handling, memory-aware CPU use, recurring voice matching, stage
+  progress, speaker-review guidance, and optional local performance reports.
+- Added SoftwareApplication softwareVersion 4.3, updated the multilingual page,
+  and linked the Updates navigation item directly to What's New.
+- Updated the speaker-diarization page with conservative workflow descriptions.
+- The long-recording review card explains the exported "Uncertain speaker
+  (review)" category; it is not presented as one additional confirmed person.
+- Included no recording sample, fixed speaker-accuracy promise, timing benchmark,
+  CPU speedup percentage, or whole-application RAM claim.
+- Existing product screenshots are authentic 4.2 captures and retain their
+  accurate image labels/cache keys. Removed the old About/Updates screenshot
+  from the 4.3 release section rather than presenting it as a 4.3 capture.
+- Trial, account and download routes still use https://portal.vidrickai.com/.
+  The website does not pin an installer version or direct GitHub release asset.
+- Public website canonical URL: https://vidrickai.com/.
+- Deployment repository: https://github.com/Wasted70/Vidrick-AI-Website.git,
+  main branch; the existing deployment guide describes GitHub-to-Netlify deploys.
