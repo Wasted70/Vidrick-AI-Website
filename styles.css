@@ -10,3 +10,13 @@
 .walkthrough-step p{font-size:16px;line-height:1.65;color:#abc6dc}
 .walkthrough-step img{display:block;border-radius:10px;margin-top:18px}
 #walkthrough{scroll-margin-top:110px}
+.feedback-callout{display:flex;align-items:center;justify-content:space-between;gap:32px;margin-top:32px;padding:30px;scroll-margin-top:110px}
+.feedback-copy{max-width:700px;min-width:0}
+.feedback-copy h3{margin:12px 0;font-size:24px;line-height:1.25;letter-spacing:-.025em}
+.feedback-copy p{margin:0;color:#a7bdcd;line-height:1.7}
+.feedback-actions{flex-shrink:0;text-align:center}
+.feedback-actions p{margin:12px 0 0;color:#a7bdcd;font-size:13px;line-height:1.7;overflow-wrap:anywhere}
+.feedback-actions p a{text-decoration:underline;text-underline-offset:3px}
+.feedback-callout a:focus-visible{outline:3px solid #b9e8ff;outline-offset:4px}
+.footer-links{flex-wrap:wrap}
+@media(max-width:680px){.feedback-callout{flex-direction:column;align-items:stretch;gap:24px;padding:24px}.feedback-actions .button{width:100%}}
