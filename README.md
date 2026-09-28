@@ -24,7 +24,7 @@ Those pages will become active when the customer portal is deployed.
 
 ## Updated application screenshots
 
-This package includes the current Vidrick 4.2 screenshots:
+This package includes application screenshots for:
 
 - Transcribe
 - Settings
@@ -33,5 +33,12 @@ This package includes the current Vidrick 4.2 screenshots:
 - History
 - About & Updates
 - First-run Welcome
+
+The homepage uses `*-versionless.png` copies of Transcribe, Editor, Insights,
+History, and About & Updates. Only the release-version labels and badges were
+removed; all other pixels, image dimensions, controls, and text are unchanged.
+The original PNG captures are retained for reference. The Welcome screenshot
+was already version-neutral. Release details remain in the What's New section
+and application metadata rather than in the screenshot descriptions or URLs.
 
 The `assets` folder is already included, so this package can be deployed directly.
