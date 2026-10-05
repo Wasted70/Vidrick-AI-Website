@@ -1,0 +1,3 @@
+# Keep internal links aligned with the existing .html canonical URLs and sitemap.
+[build.processing.html]
+  pretty_urls = false
