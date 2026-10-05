@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Offline Speaker Diarization for Windows | Vidrick AI</title>
-<meta name="description" content="Separate speakers in recorded audio locally with Vidrick. Learn automatic versus fixed speaker counts, uncertain labels, and how to review a multi-speaker transcript.">
+<meta name="description" content="Explore Vidrick’s updated local speaker diarization for Windows, with voice matching across long recordings, flexible speaker counts and a final review workflow.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://vidrickai.com/offline-speaker-diarization.html">
 <link rel="stylesheet" href="guides.css?v=2026-10-05">
@@ -14,16 +14,17 @@
 <span class="badge">Windows · Local recorded-file transcription</span>
 <h1>Offline Speaker Diarization for Windows</h1>
 
-<p class="lead">Speaker diarization separates a recording into speaker turns: who spoke when. Vidrick combines this with transcription on your Windows PC so you can review a conversation as labeled text.</p>
-<section><h2>Speaker labels are a starting point for review</h2>
-<p>A transcript can contain the right words but attribute them to the wrong person. Diarization helps organize the conversation, but an automatic label is not proof of someone’s identity. Check the recording before naming a speaker or attributing an important quotation.</p>
+<p class="lead">Follow who said what with automatic speaker diarization on your Windows PC. We’ve put focused development work into Vidrick’s speaker analysis, including voice matching across long recordings, flexible speaker counts and clearer review cues.</p>
+<section><h2>Actively improved speaker separation</h2>
+<p>Vidrick organizes conversations into labeled speaker turns so interviews, meetings and podcasts are easier to follow. In version 4.3, updated analysis compares recurring voices across different parts of a recording, with dedicated progress reporting while speaker processing runs.</p>
+<p>We’re continuing to refine diarization. Speaker labels still need human review before you publish or attribute important quotes, especially around overlapping speech and short replies. That final check is part of turning an automatically organized transcript into your finished work.</p>
 <p>Your audio and video recordings are transcribed locally on your Windows PC; nothing from those recordings is uploaded to the cloud for transcription. Speaker analysis is part of that local workflow. Account setup, downloads and license checks require internet access.</p></section>
 <section><h2>Automatic or a known number of speakers?</h2>
 <p>Use Automatic speaker identification when you do not know how many people speak in the file. If you know the expected number, enter it in the speaker options. Count people who actually speak, rather than everyone who attended the event.</p>
-<p>An expected count helps guide the job; it cannot create clear voice evidence where the recording lacks it. Vidrick warns when the audio evidence cannot support the requested count. A very brief response, distant microphone or overlapping voices may still need manual interpretation.</p></section>
-<section><h2>Long recordings and uncertain speech</h2>
-<p>Vidrick 4.3 processes long recordings in sections and compares recurring voices across the recording. Speaker-analysis progress is shown while the work runs.</p>
-<p>For long recordings, speech that cannot be matched confidently is marked “Uncertain speaker (review)” in exports. Treat this as a review category, not an additional person: it may contain speech from more than one participant. Return to the original audio before assigning a name.</p></section>
+<p>An expected count guides the analysis. Vidrick also tells you when the recording does not provide enough voice evidence to support that count, helping you choose the right settings and focus your review.</p></section>
+<section><h2>Built to follow voices through longer recordings</h2>
+<p>Vidrick 4.3 processes long recordings in sections and compares recurring voices across the recording. This work supports speaker matching beyond a single short excerpt while keeping processing local.</p>
+<p>Clearer review cues help you find passages that need attention. In long-recording exports, “Uncertain speaker (review)” identifies speech that could not be confidently matched. It is a review category that may contain more than one participant, so check those passages against the audio before assigning names.</p></section>
 <section><h2>A review checklist for interviews and panels</h2><ol>
 <li><strong>Check the opening turns.</strong> Listen to each participant’s first clear contribution and compare the assigned labels.</li>
 <li><strong>Sample later sections.</strong> Confirm that returning speakers keep the appropriate labels after long gaps or changes in microphone position.</li>
@@ -31,9 +32,9 @@
 <li><strong>Resolve uncertainty before quoting.</strong> Review names, numbers and speaker attribution together. Correct the text in the transcript editor.</li>
 <li><strong>Check the exported file.</strong> Export TXT or DOCX for written review, or SRT/VTT for subtitles, and verify the result in the tool where you will use it.</li></ol></section>
 <section><h2>Example: a three-person discussion</h2>
-<p>If two guests and a host all speak, three is a reasonable expected count. If a guest only laughs or gives a short overlapping answer, the audio may not provide enough clear speech to separate that person reliably. Review those moments instead of assuming that every label or the requested count must be correct. This is an illustrative workflow, not an accuracy benchmark.</p></section>
+<p>For a discussion with a host and two guests, select three expected speakers or use Automatic. Vidrick analyzes the voices and organizes the transcript into speaker turns. Match the labels to each person’s opening contribution, then check returning voices and interruptions before exporting the finished conversation.</p></section>
 <section><h2>What affects the result?</h2>
-<p>Background noise, similar voices, microphone distance and simultaneous speech all make review more important. A clearer recording usually provides better evidence, but no setting guarantees perfect labels. Start with a short sample using the <a href="offline-ai-transcription-windows.html">Windows transcription workflow</a>. For a recording in another language, also check the <a href="multilingual-transcription.html">language selection guidance</a>.</p></section>
+<p>Clear voices and consistent microphone placement give speaker analysis a stronger signal. Background noise, similar voices and simultaneous speech can affect the labels, so give those passages extra attention during your final review. Start with the <a href="offline-ai-transcription-windows.html">Windows transcription workflow</a>. For a recording in another language, also check the <a href="multilingual-transcription.html">language selection guidance</a>.</p></section>
 
 <section aria-labelledby="try-heading"><h2 id="try-heading">Try the workflow on your Windows PC</h2>
 <p>Start a seven-day Professional trial with no credit card required and no automatic charge. Use a non-sensitive sample to assess the results on your own computer.</p>
