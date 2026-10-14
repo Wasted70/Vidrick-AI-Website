@@ -22,6 +22,10 @@ body.marketing-home{background:radial-gradient(ellipse at 80% 5%,#10334b 0,trans
 .text-link{font-size:13px;font-weight:600;display:inline-flex;gap:12px;align-items:center;color:#c8e0f2}
 .text-link:hover,.portal-link:hover{color:#80d9ff}
 .marketing-home .hero-copy .trial-note{font-size:12px;color:#92adbf;margin-top:14px}
+.marketing-home .hero-copy .platform-note{font-size:12px;line-height:1.6;margin-top:18px}
+.platform-note a{display:inline-flex;align-items:center;gap:8px;color:#aad7f0}
+.platform-note a:hover{color:#80d9ff;text-decoration:underline;text-underline-offset:4px}
+.development-dot{width:6px;height:6px;border-radius:50%;background:#75caff;flex:none}
 .hero-visual{margin:0;min-width:0}
 .marketing-home .hero-shot{transform:none;padding:6px;border-radius:17px;box-shadow:0 25px 70px #0006}
 .marketing-home .screenshot-frame img{border-radius:12px;height:auto}
@@ -87,6 +91,9 @@ body.marketing-home{background:radial-gradient(ellipse at 80% 5%,#10334b 0,trans
 .marketing-home .feedback-copy h3{font-size:27px;line-height:1.2;letter-spacing:-.03em}
 .marketing-home .feedback-copy p{font-size:14px;line-height:1.7;max-width:630px}
 .marketing-home .feedback-actions p{font-size:11px}
+.mac-development{border-top:1px solid #28516c;padding-top:18px;margin-top:22px;scroll-margin-top:120px}
+.marketing-home .mac-development h4{font-size:14px;font-weight:600;color:#b5e3ff;margin:0 0 8px;line-height:1.5}
+.marketing-home .mac-development p{font-size:13px;line-height:1.7;margin:0;color:#a4bbcd}
 .marketing-home .pricing-section{padding-top:0}
 .marketing-home .pricing-grid{gap:20px}
 .marketing-home .price-card{padding:28px;border-radius:16px;background:#0b1c2b;backdrop-filter:none;box-shadow:none}
