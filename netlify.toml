@@ -1,3 +1,10 @@
 # Keep internal links aligned with the existing .html canonical URLs and sitemap.
 [build.processing.html]
   pretty_urls = false
+
+# Stable recovery URL shown by the desktop's required-update message.
+# The portal redirects to the current signed Windows release; no login needed.
+[[redirects]]
+  from = "/download"
+  to = "https://portal.vidrickai.com/api/v1/downloads/latest/windows"
+  status = 302
