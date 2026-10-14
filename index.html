@@ -19,6 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=2026-10-05">
+  <link rel="stylesheet" href="homepage.css?v=2026-10-14">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta property="og:title" content="Vidrick AI Transcriber | Private Offline AI Transcription for Windows">
   <meta property="og:description" content="Transcribe audio and video locally on Windows with 57 selectable languages plus Auto-detect, speaker identification, and NVIDIA GPU acceleration.">
@@ -34,7 +35,7 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Vidrick AI Transcriber",
-    "softwareVersion": "4.3",
+    "softwareVersion": "4.3.1",
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "Windows",
     "url": "https://vidrickai.com/",
@@ -51,368 +52,123 @@
   }
   </script>
 </head>
-<body>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
-
-  <nav class="nav shell">
-    <a class="brand" href="#top">
-      <span class="brand-mark">V</span>
+<body class="marketing-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="top" class="nav shell">
+    <a class="brand" href="#top" aria-label="Vidrick home">
+      <span class="brand-mark" aria-hidden="true">V</span>
       <span class="brand-copy"><strong>Vidrick</strong><small>Private AI Transcriber</small></span>
     </a>
-    <div class="nav-links">
-      <a href="#transcribe">Transcribe</a>
-      <a href="#editor">Editor</a>
-      <a href="#insights">Insights</a>
-      <a href="#history">History</a>
-      <a href="#whats-new">Updates</a>
-      <a href="#guides">Guides</a>
-      <a href="#pricing">Pricing</a>
-    </div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#walkthrough">How it works</a><a href="#insights">AI Insights</a><a href="#whats-new">Updates</a><a href="#pricing">Pricing</a>
+    </nav>
     <div class="nav-actions">
-      <a class="button button-small button-secondary" href="https://portal.vidrickai.com/">Customer Portal</a>
-      <a class="button button-small" href="https://portal.vidrickai.com/register?trial=professional">Start 7-day free trial</a>
+      <a class="portal-link" href="https://portal.vidrickai.com/">Customer Portal</a>
+      <a class="button button-small" href="https://portal.vidrickai.com/register?trial=professional">Try it free</a>
     </div>
-  </nav>
+  </header>
 
-  <main id="top">
-    <section class="hero shell">
-      <div class="hero-copy reveal">
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-heading">
+      <div class="hero-copy">
         <div class="eyebrow">Private AI transcription for Windows</div>
-        <h1>Your conversations don’t belong in the cloud. <span>With Vidrick, they never go there.</span></h1>
-        <p>Transcribe audio and video directly on your Windows PC. No cloud uploads. No external AI servers. Just private, local transcription with automatic speaker separation and clean, readable results.</p>
+        <h1 id="hero-heading">Your conversations don’t belong in the cloud. <span>With Vidrick, they never go there.</span></h1>
+        <p>Turn interviews, meetings, and podcasts into readable transcripts, speaker labels, and useful takeaways. All processed locally on your Windows PC.</p>
         <div class="hero-actions">
-          <a class="button" href="https://portal.vidrickai.com/register?trial=professional">Start 7-day free trial</a>
-          <a class="button button-secondary" href="#walkthrough">See how it works</a>
+          <a class="button" href="https://portal.vidrickai.com/register?trial=professional">Start 7-day free trial <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#walkthrough">See how it works <span aria-hidden="true">↓</span></a>
         </div>
-        <div class="trust-row">
-          <span>✓ Windows desktop app</span>
-          <span>✓ 7 days free · No credit card</span>
-          <span>✓ No automatic charge</span>
+        <p class="trial-note">No credit card. No automatic charge.</p>
+      </div>
+      <figure class="hero-visual">
+        <div class="screenshot-frame hero-shot"><img src="assets/transcribe-versionless.png" width="1810" height="1644" alt="Vidrick desktop app showing local transcription settings and automatic speaker identification" fetchpriority="high"></div>
+        <figcaption>Real desktop app · Your recordings stay on your PC</figcaption>
+      </figure>
+    </section>
+
+    <div class="proof-strip shell" aria-label="At a glance">
+      <span>No recording uploads</span><span>57 languages + Auto-detect</span><span>No per-minute fees</span><span>CPU or compatible NVIDIA GPU*</span>
+    </div>
+
+    <section id="walkthrough" class="walkthrough shell section-space" aria-labelledby="workflow-heading">
+      <div class="section-heading compact-heading">
+        <div class="eyebrow">One straightforward workflow</div>
+        <h2 id="workflow-heading">Transcribe. Review. Put it to work.</h2>
+        <p>From a quick conversation to a long interview, keep your work in one place.</p>
+      </div>
+      <div class="workflow-grid">
+        <article id="transcribe"><span class="step-number">01</span><h3>Choose your recording</h3><p>Open an audio or video file. Select a language, or use Auto-detect. Let Vidrick identify the speakers, or set the expected count.</p></article>
+        <article id="editor"><span class="step-number">02</span><h3>Review the conversation</h3><p>Read and edit the speaker-labeled transcript. Check names, speaker changes, and important quotes against your recording.</p></article>
+        <article><span class="step-number">03</span><h3>Export what you need</h3><p>Save TXT or Word documents, or SRT/VTT subtitles. Use AI Insights for takeaways and local history to revisit your work.</p></article>
+      </div>
+      <div class="setup-note"><p><strong>Getting started:</strong> Create an account, activate your trial, and download Vidrick. Internet access is needed for setup, component downloads, and license checks—not for uploading your recordings.</p><p>*Personal uses your CPU. Professional adds acceleration on compatible NVIDIA GPUs. Processing time varies with recording length, settings, and hardware.</p></div>
+      <details class="editor-preview">
+        <summary>Take a look inside the transcript editor <span aria-hidden="true">+</span></summary>
+        <figure class="screenshot-frame"><img src="assets/editor-versionless.png" width="1810" height="1644" alt="Vidrick's transcript editor for reviewing and correcting your transcript" loading="lazy"></figure>
+      </details>
+    </section>
+
+    <section id="insights" class="insights-section section-space" aria-labelledby="insights-heading">
+      <div class="shell">
+        <div class="insights-intro">
+          <div class="section-heading compact-heading"><div class="eyebrow">AI Insights</div><h2 id="insights-heading">Find the takeaways.<br>Keep the conversation private.</h2></div>
+          <div class="insights-description"><p>See a structured summary alongside action items and key points. Bring decisions, follow-ups, and stated deadlines into view without sending your transcript to a cloud service.</p><p class="review-note">Always review the output against your transcript before sharing or acting on it.</p></div>
         </div>
-      </div>
 
-      <div class="hero-shot screenshot-frame reveal">
-        <img src="assets/transcribe-versionless.png" alt="Vidrick AI Transcriber transcription screen with local processing and automatic speaker identification">
+        <figure class="insights-example" aria-labelledby="example-caption">
+          <div class="example-toolbar"><span><span class="mini-brand" aria-hidden="true">V</span> Vidrick AI Transcriber</span><span class="example-label">ILLUSTRATIVE EXAMPLE</span></div>
+          <div class="example-tabs" aria-hidden="true"><span>Transcribe</span><span>Editor</span><span class="selected">Insights</span><span>History</span><span>About &amp; Updates</span></div>
+          <div class="example-content">
+            <div class="example-heading"><h3>AI Insights</h3><span>Fictional meeting · Customer guide launch</span></div>
+            <div class="insights-panels">
+              <section class="insights-panel" aria-labelledby="summary-label"><h4 id="summary-label">Summary</h4><div class="insights-paper">
+                <div class="report-title">MEETING SUMMARY</div>
+                <div class="report-section"><h5>KEY DECISIONS</h5><p>• We agreed to launch the new customer guide next Friday.</p></div>
+                <div class="report-section"><h5>RISKS / CONCERNS</h5><p>• A delay in screenshot approval could affect the launch.</p></div>
+                <div class="report-section"><h5>NEXT STEPS</h5><p>• Maya will send the draft guide by Tuesday.<br>• Jordan will review the screenshots by Thursday.<br>• Sam will confirm the final checklist by Friday.</p></div>
+                <div class="report-section"><h5>OPEN QUESTIONS</h5><p>• Do we need a separate guide for new customers?</p></div>
+              </div></section>
+              <section class="insights-panel" aria-labelledby="actions-label"><h4 id="actions-label">Action Items &amp; Key Points</h4><div class="insights-paper">
+                <div class="report-title">ACTION ITEMS</div>
+                <div class="report-section"><h5 class="owner">Maya</h5><p>☐ Maya will send the draft guide by Tuesday.<br><span class="due">[Due: Tuesday]</span></p></div>
+                <div class="report-section"><h5 class="owner">Jordan</h5><p>☐ Jordan will review the screenshots by Thursday.<br><span class="due">[Due: Thursday]</span></p></div>
+                <div class="report-section"><h5 class="owner">Sam</h5><p>☐ Sam will confirm the final checklist by Friday.<br><span class="due">[Due: Friday]</span></p></div>
+                <div class="report-section"><h5>KEY DECISIONS</h5><p>✓ We agreed to launch the new customer guide next Friday.</p></div>
+              </div></section>
+            </div>
+          </div>
+          <figcaption id="example-caption">Sample output excerpts from a fictional transcript, shown in a simplified illustration of the Insights layout. Results depend on the recording and transcript.</figcaption>
+        </figure>
+        <details class="sample-transcript"><summary>Read the fictional transcript behind this example</summary><p>We agreed to launch the new customer guide next Friday. Maya will send the draft guide by Tuesday. Jordan will review the screenshots by Thursday. Sam will confirm the final checklist by Friday. A delay in screenshot approval could affect the launch. Do we need a separate guide for new customers?</p></details>
       </div>
     </section>
 
-    <section class="proof-strip shell">
-      <span>Your recordings stay on your computer</span>
-      <span>Automatic speaker diarization</span>
-      <span>Clean, readable conversations</span>
-      <span>No per-minute transcription limits</span>
-    </section>
-
-    <section id="walkthrough" class="showcase shell">
-      <div class="section-heading">
-        <div class="eyebrow">A quick walkthrough</div>
-        <h2>From recording to a transcript you can use.</h2>
-        <p>Create an account, sign in to activate your trial, then download Vidrick on your Windows PC. Your audio is processed locally; internet access is needed for account setup, downloads, and license checks.</p>
-      </div>
-      <details class="walkthrough-step" open>
-        <summary>1. Choose your recording</summary>
-        <p>Open an audio or video file, select the language and speaker options, and start transcription. Processing time depends on your recording, settings, and hardware.</p>
-        <img src="assets/transcribe-versionless.png" alt="Vidrick transcription screen with file, language and speaker options" loading="lazy" style="width:100%;height:auto">
-      </details>
-      <details class="walkthrough-step">
-        <summary>2. Review the speaker-labeled transcript</summary>
-        <p>Read through the result in the editor. Check speaker assignments, names, and overlapping speech against your recording, and correct anything that needs attention.</p>
-        <img src="assets/editor-versionless.png" alt="Vidrick transcript editor" loading="lazy" style="width:100%;height:auto">
-      </details>
-      <details class="walkthrough-step">
-        <summary>3. Export and put it to work</summary>
-        <p>Export your reviewed transcript as TXT or Word, or use SRT/VTT for subtitles. Start with a short recording to find the settings that work for you.</p>
-      </details>
-      <p><a class="button" href="https://portal.vidrickai.com/register?trial=professional">Try it on Windows — 7 days free</a></p>
-    </section>
-
-    <section id="transcribe" class="feature-section shell">
-      <div class="section-copy reveal">
-        <div class="eyebrow">Transcribe</div>
-        <h2>Drop in your recording. Get a private transcript.</h2>
-        <p>Choose your file, language, output format, and speaker count, then let Vidrick process it locally. Professional users can use compatible NVIDIA GPUs for dramatically faster transcription.</p>
-        <ul class="feature-list">
-          <li>Audio and video support</li>
-          <li>57 selectable languages plus Auto-detect</li>
-          <li>Translate supported speech to English</li>
-          <li>Automatic offline speaker diarization</li>
-          <li>CPU processing on Personal · GPU/CUDA on Professional</li>
-          <li>Progress tracking and estimated completion time</li>
-        </ul>
-      </div>
-      <div class="screenshot-frame reveal">
-        <img src="assets/transcribe-versionless.png" alt="Vidrick AI Transcriber transcription settings and file selection screen">
-      </div>
-    </section>
-
-    <section class="feature-section reverse shell">
-      <div class="section-copy reveal">
-        <div class="eyebrow">Clean output</div>
-        <h2>Clean transcripts built for real conversations.</h2>
-        <p>Vidrick turns raw speech into organized, readable conversations and saves the formats you choose. Your recordings and transcript workflow stay on your computer.</p>
-        <ul class="feature-list">
-          <li>Clean, speaker-organized output</li>
-          <li>Local processing from start to finish</li>
-          <li>One-click access to output files</li>
-          <li>TXT, DOCX, SRT and VTT exports</li>
-        </ul>
-      </div>
-      <div class="screenshot-frame reveal">
-        <img src="assets/transcribe-versionless.png" alt="Vidrick AI Transcriber local transcription workflow">
-      </div>
-    </section>
-
-    <section id="editor" class="showcase shell">
-      <div class="section-heading reveal">
-        <div class="eyebrow">Transcript Editor</div>
-        <h2>Your transcript stays useful after transcription is finished.</h2>
-        <p>Review completed transcripts, make corrections, and save the finished version without sending your conversation to another service.</p>
-      </div>
-      <div class="wide-shot screenshot-frame reveal">
-        <img src="assets/editor-versionless.png" alt="Vidrick AI Transcriber transcript editor">
-      </div>
-    </section>
-
-    <section id="insights" class="feature-section shell">
-      <div class="section-copy reveal">
-        <div class="eyebrow">AI Insights</div>
-        <h2>Turn long conversations into useful takeaways.</h2>
-        <p>Pull the important information out of a transcript with structured summaries, key points, action items, owners, and deadlines — inside the same private desktop workflow.</p>
-        <ul class="feature-list">
-          <li>Structured conversation summaries</li>
-          <li>Action items and key points</li>
-          <li>Private desktop workflow</li>
-          <li>No cloud upload of your recordings</li>
-        </ul>
-      </div>
-      <div class="screenshot-frame reveal">
-        <img src="assets/insights-versionless.png" alt="Vidrick AI Transcriber AI Insights screen">
-      </div>
-    </section>
-
-    <section id="history" class="feature-section reverse shell">
-      <div class="section-copy reveal">
-        <div class="eyebrow">History</div>
-        <h2>Your transcription history stays close to the work.</h2>
-        <p>Quickly find recent jobs, see how they were processed, and jump back to source files and output folders from your local history.</p>
-        <ul class="feature-list">
-          <li>Recent job history</li>
-          <li>Processor details</li>
-          <li>Source and output paths</li>
-          <li>Local record keeping</li>
-        </ul>
-      </div>
-      <div class="screenshot-frame reveal">
-        <img src="assets/history-versionless.png" alt="Vidrick AI Transcriber transcription history">
-      </div>
-    </section>
-
-    <section id="updates" class="showcase shell">
-      <div class="section-heading reveal">
-        <div class="eyebrow">About & Updates</div>
-        <h2>Privacy isn’t a setting. It’s how Vidrick works.</h2>
-        <p>See your installed version, check for updates, review privacy information, and learn what powers Vidrick — all from inside the app.</p>
-      </div>
-      <div class="wide-shot screenshot-frame reveal">
-        <img src="assets/about-updates-versionless.png" alt="Vidrick AI Transcriber About and Updates screen">
-      </div>
-    </section>
-
-    <section class="privacy-grid shell">
-      <article class="glass reveal">
-        <span class="icon">🔒</span>
-        <h3>Your recordings stay yours</h3>
-        <p>Audio and video are processed on your Windows computer instead of being uploaded to a transcription service.</p>
-      </article>
-      <article class="glass reveal">
-        <span class="icon">🎙️</span>
-        <h3>Know who said what</h3>
-        <p>We’ve put focused work into automatic speaker diarization, including updated voice matching across long recordings. Get an organized, speaker-labeled conversation, then review the labels before sharing.</p>
-      </article>
-      <article class="glass reveal">
-        <span class="icon">⚡</span>
-        <h3>Faster with your NVIDIA GPU</h3>
-        <p>Professional unlocks GPU/CUDA processing on compatible NVIDIA hardware for much faster transcription.</p>
-      </article>
-      <article class="glass reveal">
-        <span class="icon">📄</span>
-        <h3>Use the transcript anywhere</h3>
-        <p>Export TXT and DOCX transcripts or create SRT and VTT subtitle files from the same workflow.</p>
-      </article>
-    </section>
-
-    <section class="before-after shell">
-      <div class="section-heading reveal">
-        <div class="eyebrow">From raw speech to readable conversation</div>
-        <h2>Because a transcript should read like a conversation, not a data dump.</h2>
-      </div>
-      <div class="compare-cards">
-        <article class="glass reveal">
-          <span class="compare-label">Typical raw transcript</span>
-          <pre>Speaker 1:
-Yeah...
-Well...
-I think—
-
-Speaker 1:
-we should probably...
-
-Speaker 2:
-Okay.</pre>
-        </article>
-        <div class="compare-arrow">→</div>
-        <article class="glass highlight reveal">
-          <span class="compare-label">Vidrick polished output</span>
-          <pre>Speaker 1:
-Yeah, I think we should probably move forward.
-
-Speaker 2:
-Okay.</pre>
-        </article>
-      </div>
-    </section>
-
-    
-    <section id="whats-new" class="whats-new shell">
-      <div class="section-heading reveal">
-        <div class="eyebrow">What’s new in 4.3</div>
-        <h2>Long recordings. More controlled memory use. Clearer progress.</h2>
-        <p>Vidrick 4.3 focuses on long interviews, meetings, and podcasts with more controlled memory use, updated voice matching across a recording, and clearer processing stages. Your transcription and speaker analysis continue to run locally on your Windows PC.</p>
-      </div>
+    <section id="whats-new" class="shell section-space" aria-labelledby="updates-heading">
+      <div class="section-heading compact-heading"><div class="eyebrow">What’s improving in 4.3.1</div><h2 id="updates-heading">Built for real conversations.<br>Getting better with yours.</h2></div>
       <div class="update-grid">
-        <article class="glass reveal"><span class="update-badge">MEMORY</span><h3>Better handling of long recordings</h3><p>Smaller processing steps help manage memory during long recordings. Transcription models are released before speaker analysis to reduce how much needs to stay in memory at once.</p></article>
-        <article class="glass reveal"><span class="update-badge">CPU</span><h3>Processing that considers your PC</h3><p>CPU processing takes available memory into account, with more conservative resource use on systems with limited RAM.</p></article>
-        <article class="glass reveal"><span class="update-badge">VOICES</span><h3>Actively improved speaker diarization</h3><p>We’ve refined speaker analysis to compare recurring voices across different parts of a long recording. Choose Automatic, or specify the expected number of speakers. We’re continuing to improve this workflow.</p></article>
-        <article class="glass reveal"><span class="update-badge">PROGRESS</span><h3>See which stage is working</h3><p>Transcription and speaker analysis show their own progress. When a time estimate is uncertain, Vidrick shows that work is continuing.</p></article>
-        <article class="glass reveal"><span class="update-badge">REVIEW</span><h3>Clear cues for your final review</h3><p>Updated review cues highlight uncertain speaker matches in long-recording exports so you can focus on the passages that need attention. Review speaker labels before publishing or attributing important quotes.</p></article>
-        <article class="glass reveal"><span class="update-badge">DIAGNOSTICS</span><h3>Optional local performance reports</h3><p>Choose to save timing and memory measurements to help investigate problems. These files stay on your PC and do not include your recording or transcript text.</p></article>
+        <article><span class="update-badge">MEMORY &amp; CPU</span><h3>Better handling of long recordings</h3><p>Smaller processing steps and memory-aware CPU settings help manage resources. Transcription models are released before speaker analysis.</p></article>
+        <article><span class="update-badge">SPEAKER LABELS</span><h3>More consistent voice matching</h3><p>Updated speaker analysis compares recurring voices across long recordings. Review cues help you focus on uncertain matches before sharing.</p></article>
+        <article><span class="update-badge">PROGRESS</span><h3>A clearer view of the work</h3><p>Transcription and speaker analysis show separate progress. When a time estimate is uncertain, Vidrick shows that processing is continuing.</p></article>
       </div>
-      <p class="local-note reveal"><strong>Still private by design.</strong> Transcription and speaker processing continue to run locally on your computer.</p>
-      <aside id="feedback" class="feedback-callout glass" aria-labelledby="feedback-heading">
-        <div class="feedback-copy">
-          <div class="eyebrow">Help shape what’s next</div>
-          <h3 id="feedback-heading">Actively developed and updated. Open to your feedback.</h3>
-          <p>We’re actively developing and updating Vidrick, and we welcome all feedback — bug reports, feature ideas, and what’s working well. Tell us about your experience and help guide future improvements.</p>
-        </div>
-        <div class="feedback-actions">
-          <a class="button" href="mailto:feedback@vidrickai.com" aria-describedby="feedback-email-help">Send feedback</a>
-          <p id="feedback-email-help">Opens your email app<br><a href="mailto:feedback@vidrickai.com">feedback@vidrickai.com</a></p>
-        </div>
+      <aside id="feedback" class="feedback-callout" aria-labelledby="feedback-heading">
+        <div class="feedback-copy"><div class="eyebrow">Help shape what’s next</div><h3 id="feedback-heading">Actively developed and updated.<br>Open to your feedback.</h3><p>Bug reports, feature ideas, and what’s working well—we welcome all feedback and use it to guide improvements.</p></div>
+        <div class="feedback-actions"><a class="button" href="mailto:feedback@vidrickai.com" aria-describedby="feedback-email-help">Send feedback <span aria-hidden="true">↗</span></a><p id="feedback-email-help">Opens your email app<br><a href="mailto:feedback@vidrickai.com">feedback@vidrickai.com</a></p></div>
       </aside>
     </section>
 
-    <section class="feature-section shell">
-      <div class="section-copy reveal">
-        <div class="eyebrow">Multilingual transcription</div>
-        <h2>57 selectable languages plus Auto-detect.</h2>
-        <p>Vidrick AI Transcriber 4.3 supports 57 named transcription languages plus Auto-detect. Choose the recording language directly, or let Vidrick detect it automatically.</p>
-        <ul class="feature-list">
-          <li>Includes English, Spanish, French, German, Portuguese, Arabic, Chinese, Hindi, Japanese, Korean, Russian, Ukrainian, Vietnamese and more</li>
-          <li>Translate to English remains available</li>
-          <li>Language selection stays inside the same local transcription workflow</li>
-        </ul>
-        <p><a href="multilingual-transcription.html">See multilingual transcription details →</a></p>
-      </div>
-      <div class="screenshot-frame reveal">
-        <img src="assets/transcribe-versionless.png" alt="Vidrick AI Transcriber language and transcription settings">
-      </div>
-    </section>
-
-<section id="pricing" class="pricing-section shell">
-      <div class="section-heading reveal">
-        <div class="eyebrow">Pricing</div>
-        <h2>Private transcription without paying by the minute.</h2>
-        <p>Start with 7 days of Professional. Keep the speed of GPU/CUDA or move to Personal for private CPU transcription.</p>
-      </div>
-
+    <section id="pricing" class="shell section-space pricing-section" aria-labelledby="pricing-heading">
+      <div class="section-heading compact-heading"><div class="eyebrow">Simple pricing</div><h2 id="pricing-heading">Your recordings. No per-minute fees.</h2><p>Start with 7 days of Professional, free. No credit card and no automatic charge.</p></div>
       <div class="pricing-grid">
-        <article class="price-card glass reveal">
-          <div class="price-top"><span>PERSONAL</span><small>Individuals</small></div>
-          <div class="price"><strong>$6.99</strong><span>/month</span></div>
-          <p>Private, unlimited local transcription for individuals who don’t need GPU acceleration.</p>
-          <ul>
-            <li>Unlimited local transcription · no per-minute fees</li>
-            <li>Automatic speaker diarization</li>
-            <li>Clean conversation reconstruction</li>
-            <li>TXT, DOCX, SRT & VTT exports</li>
-            <li>Automatic updates</li>
-            <li>Email support</li>
-          </ul>
-          <a class="button button-secondary full" href="https://portal.vidrickai.com/register">Choose Personal</a>
-        </article>
-
-        <article class="price-card glass featured reveal">
-          <div class="popular">MOST POPULAR</div>
-          <div class="price-top"><span>PROFESSIONAL</span><small>Faster local processing</small></div>
-          <div class="price"><strong>$13.99</strong><span>/month</span></div>
-          <p>For professionals who want everything to stay local without giving up the speed of GPU-accelerated transcription.</p>
-          <ul>
-            <li>Everything in Personal</li>
-            <li>Commercial use</li>
-            <li>Priority support</li>
-            <li>GPU/CUDA acceleration on compatible NVIDIA hardware</li>
-            <li>Private processing with no cloud uploads</li>
-            <li>Up to 3 activated computers</li>
-            <li>7 day free trial</li>
-          </ul>
-          <a class="button full" href="https://portal.vidrickai.com/register?trial=professional">Start 7-day free trial</a>
-        </article>
-
-        <article class="price-card glass reveal">
-          <div class="price-top"><span>BUSINESS</span><small>Teams</small></div>
-          <div class="price"><strong>Custom</strong></div>
-          <p>Private AI transcription for teams and organizations that need licensing, deployment support, and a path to broader rollout.</p>
-          <ul>
-            <li>Multi-user licensing</li>
-            <li>Team deployment</li>
-            <li>Dedicated support</li>
-            <li>Volume pricing</li>
-            <li>Enterprise onboarding</li>
-          </ul>
-          <a class="button button-secondary full" href="mailto:sales@vidrickai.com?subject=Vidrick%20AI%20Business%20Inquiry">Contact sales</a>
-        </article>
+        <article class="price-card glass"><div class="price-top"><span>PERSONAL</span><small>CPU processing</small></div><div class="price"><strong>$6.99</strong><span>/month</span></div><p>Private, unlimited local transcription for individuals who don’t need GPU acceleration.</p><ul><li>Unlimited local transcription</li><li>Automatic speaker diarization</li><li>Clean conversation reconstruction</li><li>TXT, DOCX, SRT &amp; VTT exports</li><li>Automatic updates</li><li>Email support</li></ul><a class="button button-secondary full" href="https://portal.vidrickai.com/register">Choose Personal</a></article>
+        <article class="price-card glass featured"><div class="popular">MOST POPULAR</div><div class="price-top"><span>PROFESSIONAL</span><small>CPU + GPU</small></div><div class="price"><strong>$13.99</strong><span>/month</span></div><p>Everything in Personal, with compatible NVIDIA GPU acceleration for faster local processing.</p><ul><li>Everything in Personal</li><li>Commercial use</li><li>Priority support</li><li>GPU/CUDA on compatible NVIDIA hardware</li><li>Private processing, no cloud uploads</li><li>Up to 3 activated computers</li><li>7-day free trial</li></ul><a class="button full" href="https://portal.vidrickai.com/register?trial=professional">Start 7-day free trial</a></article>
+        <article class="price-card glass"><div class="price-top"><span>BUSINESS</span><small>Teams</small></div><div class="price"><strong>Custom</strong></div><p>Private transcription for organizations that need flexible licensing and deployment support.</p><ul><li>Multi-user licensing</li><li>Team deployment</li><li>Dedicated support</li><li>Volume pricing</li><li>Enterprise onboarding</li></ul><a class="button button-secondary full" href="mailto:sales@vidrickai.com?subject=Vidrick%20AI%20Business%20Inquiry">Contact sales</a></article>
       </div>
+      <p class="portal-note">Already using Vidrick? <a href="https://portal.vidrickai.com/">Manage your subscription, devices, and downloads in the Customer Portal <span aria-hidden="true">↗</span></a></p>
     </section>
 
-    <section id="guides" class="guides-section shell" aria-labelledby="guides-heading">
-      <div class="section-heading">
-        <div class="eyebrow">Practical guides</div>
-        <h2 id="guides-heading">Plan your local transcription workflow.</h2>
-        <p>Learn what to set up, how to review the results, and what to expect before trying your own recording.</p>
-      </div>
-      <div class="guide-grid">
-        <article class="glass"><h3><a href="offline-ai-transcription-windows.html">Offline AI transcription for Windows</a></h3><p>Follow the recorded-file workflow, compare CPU and supported NVIDIA GPU processing, and choose your exports.</p></article>
-        <article class="glass"><h3><a href="private-local-transcription.html">Private, local transcription</a></h3><p>Understand what stays on your PC, which steps need internet access, and how to evaluate a non-sensitive sample.</p></article>
-        <article class="glass"><h3><a href="offline-speaker-diarization.html">Offline speaker diarization</a></h3><p>Explore the work behind our updated speaker analysis, choose your speaker settings, and finish with a review of the labels.</p></article>
-        <article class="glass"><h3><a href="multilingual-transcription.html">Multilingual transcription</a></h3><p>Choose from 57 languages plus Auto-detect, understand Translate to English, and check the output.</p></article>
-      </div>
-    </section>
-
-    <section class="final-cta shell glass reveal">
-      <div>
-        <div class="eyebrow">Already using Vidrick?</div>
-        <h2>Your subscription and devices are in one place.</h2>
-        <p>Open the Customer Portal to manage your plan, billing, activated computers, account security, and the latest Vidrick download.</p>
-      </div>
-      <a class="button" href="https://portal.vidrickai.com/">Customer Portal</a>
-    </section>
+    <aside id="guides" class="guides-compact shell" aria-labelledby="guides-heading"><div><div class="eyebrow">Want the details?</div><h2 id="guides-heading">Explore the guides.</h2></div><nav aria-label="Transcription guides"><a href="offline-ai-transcription-windows.html">Windows setup <span aria-hidden="true">↗</span></a><a href="private-local-transcription.html">Privacy &amp; local processing <span aria-hidden="true">↗</span></a><a href="offline-speaker-diarization.html">Speaker identification <span aria-hidden="true">↗</span></a><a href="multilingual-transcription.html">Languages &amp; translation <span aria-hidden="true">↗</span></a></nav></aside>
   </main>
-
-  <footer class="footer shell">
-    <a class="brand" href="#top">
-      <span class="brand-mark">V</span>
-      <span class="brand-copy"><strong>Vidrick</strong><small>Private AI Transcriber</small></span>
-    </a>
-    <p>Private AI transcription for Windows. Your recordings stay on your computer.</p>
-    <div class="footer-links">
-      <a href="privacy.html">Privacy</a>
-      <a href="eula.html">License</a>
-      <a href="mailto:feedback@vidrickai.com">Feedback</a>
-      <a href="mailto:support@vidrickai.com?subject=Vidrick%20AI%20Support">Support: support@vidrickai.com</a>
-    </div>
-  </footer>
-
+  <footer class="footer shell"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">V</span><span class="brand-copy"><strong>Vidrick</strong><small>Private AI Transcriber</small></span></a><p>Your recordings stay on your computer.</p><nav class="footer-links" aria-label="Footer"><a href="https://portal.vidrickai.com/">Customer Portal</a><a href="privacy.html">Privacy</a><a href="eula.html">License</a><a href="mailto:feedback@vidrickai.com">Feedback</a><a href="mailto:support@vidrickai.com?subject=Vidrick%20AI%20Support">Support</a></nav></footer>
   <script>
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {

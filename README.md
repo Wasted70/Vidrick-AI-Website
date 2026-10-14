@@ -34,12 +34,14 @@ This package includes application screenshots for:
 - About & Updates
 - First-run Welcome
 
-The homepage uses `*-versionless.png` copies of Transcribe, Editor, Insights,
-History, and About & Updates. Only the release-version labels and badges were
-removed; all other pixels, image dimensions, controls, and text are unchanged.
-The original PNG captures, including the Welcome screenshot no longer shown
-on the homepage, are retained for reference. Release details remain in the
-What's New section and application metadata rather than in the screenshot
-descriptions or URLs.
+The homepage uses `*-versionless.png` copies of Transcribe and Editor; the
+editor screenshot is available in an expandable preview. AI Insights uses an
+accessible HTML/CSS illustration populated with clearly labeled fictional
+output excerpts, with its sample transcript available below the illustration.
+The simplified homepage layout is scoped in `homepage.css`; shared styles and
+the existing guide/legal pages are unchanged. The original slogan is retained
+at a smaller responsive size, with additional paint space for gradient-text
+descenders. Release 4.3.1 appears in the improvements section and application
+metadata, not in screenshot labels. All original screenshot assets are retained.
 
 The `assets` folder is already included, so this package can be deployed directly.
