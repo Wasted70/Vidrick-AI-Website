@@ -37,7 +37,10 @@ body.marketing-home{background:radial-gradient(ellipse at 80% 5%,#10334b 0,trans
 .marketing-home .compact-heading{max-width:780px;margin-bottom:34px}
 .marketing-home .section-heading h2{font-size:clamp(30px,3.25vw,42px);line-height:1.13;letter-spacing:-.04em;margin-top:14px}
 .marketing-home .section-heading>p{font-size:16px;line-height:1.7;margin:16px 0 0}
-.marketing-home .section-heading>p.update-recovery{font-size:14px}
+.release-notes{max-width:780px;margin-top:32px;padding-top:24px;border-top:1px solid #203b50}
+.release-notes p{font-size:clamp(15px,1.2vw,16px);line-height:1.7;color:#a4bbcd;margin:0}
+.release-notes p+p{margin-top:16px}
+.marketing-home .release-notes .update-recovery{font-size:14px}
 .update-recovery a{color:#bfdef0;text-decoration:underline;text-underline-offset:4px}
 .workflow-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
 .workflow-grid article{scroll-margin-top:120px}
