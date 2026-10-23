@@ -41,8 +41,8 @@ output excerpts, with its sample transcript available below the illustration.
 The simplified homepage layout is scoped in `homepage.css`; shared styles and
 the existing guide/legal pages are unchanged. The original slogan is retained
 at a smaller responsive size, with additional paint space for gradient-text
-descenders. Release 4.3.3 appears in the improvements section and application
-metadata, with a brief summary of updater improvements and a stable download
+descenders. Release 4.3.4 appears in the improvements section and application
+metadata, with a brief summary of HTTPS certificate protections and a stable download
 link for 4.3.1 apps whose in-app updater is blocked, not in screenshot
 labels. All original screenshot assets are retained.
 
