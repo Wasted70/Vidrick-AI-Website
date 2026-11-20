@@ -41,9 +41,10 @@ output excerpts, with its sample transcript available below the illustration.
 The simplified homepage layout is scoped in `homepage.css`; shared styles and
 the existing guide/legal pages are unchanged. The original slogan is retained
 at a smaller responsive size, with additional paint space for gradient-text
-descenders. Release 4.3.4 appears in the improvements section and application
-metadata, with a brief summary of HTTPS certificate protections and a stable download
-link for 4.3.1 apps whose in-app updater is blocked, not in screenshot
-labels. All original screenshot assets are retained.
+descenders. Release 4.3.5 appears in the improvements section and application
+metadata. The update cards lead with Memory & CPU, followed by the release
+note about AI Insights improvements and a stable download link for 4.3.1 apps
+whose in-app updater is blocked. The Insights example includes a Key Points
+excerpt from its fictional transcript.
 
 The `assets` folder is already included, so this package can be deployed directly.
